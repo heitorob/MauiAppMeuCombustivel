@@ -17,12 +17,13 @@
 
             if(etanol > (gasolina * 0.7) )
             {
-                msg += " a gasolina";
+                msg += "a gasolina.";
             }
             else
             {
-                msg += " o etanol";
+                msg += "o etanol.";
             }
+            DisplayAlert("Resultado", msg, "Fechar");
         }
     }
 
